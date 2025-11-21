@@ -82,9 +82,16 @@
 }
 
 .sumaho-ic {
+  display: none;
   line-height: 60px;
   padding: 0 12px;
 }
 
 @media (width < 768px) {
+  .list {
+    display: none;
+  }
+  .sumaho-ic {
+    display: block;
+  }
 }
