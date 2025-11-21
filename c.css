@@ -1,0 +1,90 @@
+:root {
+  --S: #ffb8f4;
+  --W: #85e1ff;
+  --G: #93fab0;
+}
+
+.bar {
+  background-color: var(--W);
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.lg {
+  background-color: var(--G);
+  aspect-ratio: 4/3;
+}
+
+.syashin {
+  height: 100%;
+}
+
+.list {
+  display: flex;
+}
+
+.botan {
+  background-color: var(--S);
+  width: 80px;
+  margin: 0 10px;
+  text-align: center;
+  line-height: 60px;
+  position: relative;
+}
+
+.ni-ul {
+  background-color: #bfabeb;
+  display: none;
+  padding: 8px;
+  position: absolute;
+  width: 80px;
+  top: calc(100% + 10px);
+  left: 0;
+}
+
+.ni-ul::before {
+  content: "";
+  border-bottom: 10px solid #bfabeb;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  position: absolute;
+  top: -10px;
+  left: 10px;
+}
+
+.ni-ul::after {
+  content: "";
+  width: 80px;
+  height: 10px;
+  background-color: transparent;
+  position: absolute;
+  top: -10px;
+  left: 0;
+}
+
+.ni-li {
+  background-color: #7fff00;
+  padding: 2px;
+  margin: 4px 0;
+  line-height: 100%;
+  height: 100%;
+}
+
+.ni-li:hover {
+  background-color: #0fb600;
+}
+
+.botan:hover {
+  .ni-ul {
+    display: inline-block;
+  }
+}
+
+.sumaho-ic {
+  line-height: 60px;
+  padding: 0 12px;
+}
+
+@media (width < 768px) {
+}
