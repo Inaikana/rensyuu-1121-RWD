@@ -11,11 +11,6 @@
   justify-content: space-between;
 }
 
-.lg {
-  background-color: var(--G);
-  aspect-ratio: 4/3;
-}
-
 .syashin {
   height: 100%;
 }
@@ -82,16 +77,12 @@
 }
 
 .sumaho-ic {
-  display: none;
   line-height: 60px;
-  padding: 0 12px;
+  font-size: 28px;
 }
 
-@media (width < 768px) {
+/* @media (width < 768px) {
   .list {
-    display: none;
+    
   }
-  .sumaho-ic {
-    display: block;
-  }
-}
+} */
