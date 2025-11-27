@@ -9,6 +9,7 @@
   height: 60px;
   display: flex;
   justify-content: space-between;
+  position: relative;
 }
 
 .syashin {
@@ -17,6 +18,9 @@
 
 .list {
   display: flex;
+  position: absolute;
+  top: 0;
+  right: 16px;
 }
 
 .botan {
@@ -70,15 +74,15 @@
   background-color: #0fb600;
 }
 
-.botan:hover {
-  .ni-ul {
-    display: inline-block;
-  }
+.botan:hover .ni-ul {
+  display: inline-block;
 }
 
 .sumaho-ic {
+  display: none;
   line-height: 60px;
   font-size: 28px;
+  padding-right: 16px;
 }
 
 /* @media (width < 768px) {
