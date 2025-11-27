@@ -25,8 +25,8 @@
 
 .botan {
   background-color: var(--S);
-  width: 80px;
   margin: 0 10px;
+  padding: 0 24px;
   text-align: center;
   line-height: 60px;
   position: relative;
@@ -80,13 +80,20 @@
 
 .sumaho-ic {
   display: none;
-  line-height: 60px;
-  font-size: 28px;
-  padding-right: 16px;
 }
 
-/* @media (width < 768px) {
-  .list {
-    
+@media (width < 768px) {
+  .sumaho-ic {
+    display: block;
+    line-height: 60px;
+    font-size: 28px;
+    padding-right: 16px;
   }
-} */
+
+  .list {
+    flex-direction: column;
+    top: 100%;
+    left: 0;
+    right: 0;
+  }
+}
