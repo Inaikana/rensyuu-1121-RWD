@@ -40,12 +40,11 @@ https://fontawesome.com/v6/search?q=Hamburger%20Menu */
   display: none;
   padding: 8px;
   position: absolute;
-  width: 80px;
-  top: calc(100% + 10px);
+  top: 100%;
   left: 0;
 }
 
-.ni-ul::before {
+/* .ni-ul::before {
   content: "";
   border-bottom: 10px solid #bfabeb;
   border-left: 10px solid transparent;
@@ -63,7 +62,7 @@ https://fontawesome.com/v6/search?q=Hamburger%20Menu */
   position: absolute;
   top: -10px;
   left: 0;
-}
+} */
 
 .ni-li {
   background-color: #7fff00;
@@ -109,4 +108,14 @@ https://fontawesome.com/v6/search?q=Hamburger%20Menu */
   .botan + .botan {
     border-top: 2px solid #e63ecc;
   }
+
+  /* .ni-ul {
+    display: block;
+    padding: 8px;
+    position: absolute;
+    top: 100%;
+    left: 0;
+  } */
+
+  /* 待做:把hover選單塞到手機版的選單裡 */
 }
