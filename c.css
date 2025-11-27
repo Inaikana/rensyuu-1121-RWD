@@ -4,6 +4,9 @@
   --G: #93fab0;
 }
 
+/* Icon網站
+https://fontawesome.com/v6/search?q=Hamburger%20Menu */
+
 .bar {
   background-color: var(--W);
   height: 60px;
@@ -95,5 +98,15 @@
     top: 100%;
     left: 0;
     right: 0;
+    padding: 0 20px;
+    background-color: var(--S);
+  }
+
+  .botan {
+    text-align: left;
+  }
+
+  .botan + .botan {
+    border-top: 2px solid #e63ecc;
   }
 }
