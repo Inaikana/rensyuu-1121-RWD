@@ -66,7 +66,7 @@ https://fontawesome.com/v6/search?q=Hamburger%20Menu */
 
 .ni-li {
   background-color: #7fff00;
-  padding: 2px;
+  padding: 8px;
   margin: 4px 0;
   line-height: 100%;
   height: 100%;
@@ -81,6 +81,10 @@ https://fontawesome.com/v6/search?q=Hamburger%20Menu */
 }
 
 .sumaho-ic {
+  display: none;
+}
+
+.sumaho-shitae {
   display: none;
 }
 
@@ -103,19 +107,38 @@ https://fontawesome.com/v6/search?q=Hamburger%20Menu */
 
   .botan {
     text-align: left;
+    margin: 0;
   }
 
   .botan + .botan {
     border-top: 2px solid #e63ecc;
   }
 
-  /* .ni-ul {
+  .ni-ul {
     display: block;
-    padding: 8px;
-    position: absolute;
-    top: 100%;
-    left: 0;
-  } */
+    padding: 0 12px;
+    position: static;
+    margin-bottom: 10px;
+    background-color: #7fff00;
+  }
 
-  /* 待做:把hover選單塞到手機版的選單裡 */
+  .ni-li {
+    display: block;
+    margin: 0;
+    padding: 8px 0;
+    position: static;
+  }
+
+  .ni-li + .ni-li {
+    border-top: 2px solid #0d8d01;
+  }
+
+  .sumaho-shitae {
+    display: block;
+    font-size: 20px;
+    position: absolute;
+    right: 16px;
+    transform: translateX(-50%);
+    top: 20px;
+  }
 }
