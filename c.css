@@ -88,6 +88,9 @@ https://fontawesome.com/v6/search?q=Hamburger%20Menu */
   display: none;
 }
 
+.ni-ul-open {
+  display: none;
+}
 @media (width < 768px) {
   .sumaho-ic {
     display: block;
