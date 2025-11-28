@@ -72,13 +72,13 @@ https://fontawesome.com/v6/search?q=Hamburger%20Menu */
   height: 100%;
 }
 
-.ni-li:hover {
+/* .ni-li:hover {
   background-color: #0fb600;
-}
+} */
 
-.botan:hover .ni-ul {
+/* .botan:hover .ni-ul {
   display: inline-block;
-}
+} */
 
 .sumaho-ic {
   display: none;
@@ -114,14 +114,6 @@ https://fontawesome.com/v6/search?q=Hamburger%20Menu */
     border-top: 2px solid #e63ecc;
   }
 
-  .ni-ul {
-    display: block;
-    padding: 0 12px;
-    position: static;
-    margin-bottom: 10px;
-    background-color: #7fff00;
-  }
-
   .ni-li {
     display: block;
     margin: 0;
@@ -140,5 +132,13 @@ https://fontawesome.com/v6/search?q=Hamburger%20Menu */
     right: 16px;
     transform: translateX(-50%);
     top: 20px;
+  }
+
+  .ni-ul-open:checked + .ni-ul {
+    display: block;
+    padding: 0 12px;
+    position: static;
+    margin-bottom: 10px;
+    background-color: #7fff00;
   }
 }
