@@ -91,21 +91,17 @@ https://fontawesome.com/v6/search?q=Hamburger%20Menu */
 .ni-ul-open {
   display: none;
 }
+
+#menyuu {
+  display: none;
+}
+
 @media (width < 768px) {
   .sumaho-ic {
     display: block;
     line-height: 60px;
     font-size: 28px;
     padding-right: 16px;
-  }
-
-  .list {
-    flex-direction: column;
-    top: 100%;
-    left: 0;
-    right: 0;
-    padding: 0 20px;
-    background-color: var(--S);
   }
 
   .botan {
@@ -143,5 +139,19 @@ https://fontawesome.com/v6/search?q=Hamburger%20Menu */
     position: static;
     margin-bottom: 10px;
     background-color: #7fff00;
+  }
+
+  .list {
+    display: none;
+  }
+
+  #menyuu:checked + .list {
+    display: flex;
+    flex-direction: column;
+    top: 100%;
+    left: 0;
+    right: 0;
+    padding: 0 20px;
+    background-color: var(--S);
   }
 }
