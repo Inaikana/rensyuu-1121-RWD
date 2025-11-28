@@ -141,17 +141,26 @@ https://fontawesome.com/v6/search?q=Hamburger%20Menu */
     background-color: #7fff00;
   }
 
-  .list {
-    display: none;
-  }
-
   #menyuu:checked + .list {
-    display: flex;
+    /* display: flex;
     flex-direction: column;
     top: 100%;
     left: 0;
-    right: 0;
+    right: 0; */
     padding: 0 20px;
+    transition: all 1s linear;
+    transform: translateX(0);
+  }
+
+  .list {
     background-color: var(--S);
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    transform: translateX(100%);
+    transition: transform 1s linear;
   }
 }
